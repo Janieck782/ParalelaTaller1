@@ -13,4 +13,6 @@ void evalua(int n, double *f, double x, double &p){
         p = a[i] * x + a[i - 1];
         a[i - 1] = p;
     }
+    
+    delete[] a;
 }

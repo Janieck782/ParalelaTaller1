@@ -1,7 +1,7 @@
 #include "funciones.h"
 #include <cmath>
 
-void newtonraphson(int n, double *f, double *fd, double x, int &contador){
+void newtonraphson(int n, double *f, double *fd, double &x, int &contador){
     double p=0, y1, y2, verificador, z=0;
 
     do{
